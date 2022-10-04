@@ -1,0 +1,168 @@
+/*main*/
+.main_left h4 {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.main_left h4 > a {
+  position: absolute;
+  text-decoration: none;
+  border-bottom: 2px solid #0a63ab;
+  padding-bottom: 5px;
+  left: 0;
+  bottom: 0;
+  color: #333333;
+}
+.main_left .tit {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.main_left .tel {
+  padding: 10px 0 10px 0;
+}
+.main_left .tel > p {
+  font-size: 16px;
+  margin: 20px 0 20px 0;
+}
+.main_left .search {
+  margin-top: 20px;
+}
+.main_left .search > form {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #e4eaec;
+  box-sizing: border-box;
+  position: relative;
+}
+.main_left .search > form .top_btn {
+  position: absolute;
+  height: 42px;
+  width: 42px;
+  border: 0;
+  right: 0;
+  top: 0;
+  color: #fff;
+  font-size: 18px;
+  background-color: #0a63ab;
+}
+.main_left .search > form > input {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  padding-left: 10px;
+  background-color: #f3f7f9;
+}
+.main_right .right_top {
+  position: relative;
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.main_right .right_top > ul {
+  position: absolute;
+  bottom: -4px;
+}
+.main_right .right_top > ul > li {
+  display: inline-block;
+  padding: 0 5px 0 5px;
+}
+.main_right .right_top > ul > li > a {
+  text-decoration: none;
+  color: #999;
+}
+.main_right .right_top > ul > li > a:hover {
+  color: #0a63ab;
+}
+.main_right .right_top > ul > li > a > span {
+  margin-right: 5px;
+}
+.main_right .content nav {
+  position: relative;
+  height: 100px;
+}
+.main_right .content nav ul {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.main_right .travel_img {
+  padding: 10px;
+}
+.main_right .travel_img > li {
+  border-radius: 5px;
+  display: block;
+  float: left;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 24%;
+  height: 200px;
+  margin-right: 1%;
+  border: 1px solid #ccc;
+  box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+@media screen and (max-width: 992px) {
+  .main_right .travel_img > li {
+    width: 48%;
+    margin-right: 2%;
+  }
+}
+.main_right .travel_img > li .img-sty {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.main_right .travel_img > li .img-sty > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+}
+.main_right .travel_img > li .img-sty .img-exp {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.main_right .travel_img > li .img-sty .img-exp > h3 {
+  color: #fff;
+  padding: 15px 0;
+}
+.main_right .travel_img > li .img-sty .img-exp > a {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 8px 15px;
+  font-size: 16px;
+  color: #fff;
+  transition: background-color 0.5s;
+}
+.main_right .travel_img > li .img-sty .img-exp > a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #333;
+}
+.main_right .travel_img > li:hover .img-sty img {
+  transform: scale(1.1);
+}
+.come_top {
+  display: none;
+  position: fixed;
+  right: 5px;
+  bottom: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: #0a63ab;
+  text-align: center;
+}
+.come_top > span {
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+}

@@ -1,0 +1,272 @@
+/*main*/
+
+.main_left{
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+.main_left.tab2-1{
+  font-size: 30px;
+}
+.main_left .nav-tabs > li.active > a {
+  background-color: unset;
+  border: 0;
+}
+.main_left h4 {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.main_left h4 > a {
+  position: absolute;
+  text-decoration: none;
+  border-bottom: 2px solid #0a63ab;
+  padding-bottom: 5px;
+  left: 0;
+  bottom: 0;
+  color: #333333;
+}
+.main_left .ul_left1 {
+  margin-top: 10px;
+}
+.main_left .ul_left1 > li {
+  height: 50px;
+  line-height: 50px;
+  background-color: #e6e6e6;
+  float: unset;
+  padding-left: 20px;
+  position: relative;
+  margin-top: 2px;
+  border: 0;
+}
+.main_left .ul_left1 > li > a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding-top: 15px;
+}
+.main_left .ul_left1 > li > a:hover {
+  color: #0a63ab;
+  background-color: unset;
+  border: 0;
+}
+.main_left .ul_left1 > li > a:focus,
+.main_left .ul_left1 > li > a:visited {
+  color: #0a63ab;
+}
+.main_left .ul_left1 > li > span {
+  position: absolute;
+  height: 50px;
+  line-height: 50px;
+  right: 15px;
+}
+.main_left .ul_left1 > li.active {
+  color: #0a63ab;
+}
+.main_left .tit {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.main_left .tel {
+  padding: 10px 0 10px 0;
+}
+.main_left .tel > p {
+  font-size: 16px;
+  margin: 20px 0 20px 0;
+}
+.main_left .search {
+  margin-top: 20px;
+}
+.main_left .search > form {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #e4eaec;
+  box-sizing: border-box;
+  position: relative;
+}
+.main_left .search > form .top_btn {
+  position: absolute;
+  height: 42px;
+  width: 42px;
+  border: 0;
+  right: 0;
+  top: 0;
+  color: #fff;
+  font-size: 18px;
+  background-color: #0a63ab;
+}
+.main_left .search > form > input {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  padding-left: 10px;
+  background-color: #f3f7f9;
+}
+.main_right{
+  margin-left: 50px;
+}
+.main_right .right_top {
+  position: relative;
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.main_right .right_top > ul {
+  position: absolute;
+  bottom: -4px;
+}
+.main_right .right_top > ul > li {
+  display: inline-block;
+  padding: 0 5px 0 5px;
+}
+.main_right .right_top > ul > li > a {
+  text-decoration: none;
+  color: #999;
+}
+.main_right .right_top > ul > li > a:hover {
+  color: #0a63ab;
+}
+.main_right .right_top > ul > li > a > span {
+  margin-right: 5px;
+}
+.main_right .content nav {
+  position: relative;
+  height: 100px;
+}
+.main_right .content nav ul {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.main_right .content .content_text1 ul > li {
+  height: 100px;
+  line-height: 100px;
+  border-bottom: 1px solid #ccc;
+}
+.main_right .content .content_text1 ul > li .ico {
+  display: block;
+  float: left;
+  height: 100%;
+  margin-left: 10px;
+}
+.main_right .content .content_text1 ul > li .ico > span {
+  font-size: 40px;
+  margin-top: 30px;
+  color: #76838f;
+}
+.main_right .content .content_text1 ul > li .icon_text {
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.main_right .content .content_text1 ul > li .icon_text > p {
+  line-height: 20px;
+}
+.main_right .content .content_text1 ul > li .icon_text > p:first-of-type {
+  font-size: 18px;
+}
+.main_right .content .content_text1 ul > li .icon_text > p:first-of-type > a {
+  color: #333;
+}
+.main_right .content .content_text1 ul > li .icon_text > p:first-of-type > a:hover {
+  text-decoration: none;
+  color: #0a63ab;
+}
+.main_right .content .content_text1 ul > li .icon_text > p:last-of-type {
+  color: #76838f;
+}
+.main_right .content .content_text1 ul > li .btn_dow {
+  float: right;
+  margin-right: 10px;
+}
+.come_top {
+  display: none;
+  position: fixed;
+  right: 5px;
+  bottom: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: #0a63ab;
+  text-align: center;
+}
+.come_top > span {
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+}
+
+.tabs {
+  display: block;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  overflow: hidden; }
+  .tabs [class^="tab"] label,
+  .tabs [class*=" tab"] label {
+/*     color: black; */
+    cursor: pointer;
+    display: block;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1em;
+    padding: 2rem 0;
+    text-align: center; }
+  .tabs [class^="tab"] [type="radio"],
+  .tabs [class*=" tab"] [type="radio"] {
+/*     border-bottom: 1px solid rgba(239, 237, 239, 0.5); */
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    .tabs [class^="tab"] [type="radio"]:hover, .tabs [class^="tab"] [type="radio"]:focus,
+    .tabs [class*=" tab"] [type="radio"]:hover,
+    .tabs [class*=" tab"] [type="radio"]:focus {
+/*    tab标签选中的颜色标志      */
+      border-bottom: 1px solid #40a9ff;
+}
+    .tabs [class^="tab"] [type="radio"]:checked,
+    .tabs [class*=" tab"] [type="radio"]:checked {
+      border-bottom: 2px solid #40a9ff; 
+}
+    .tabs [class^="tab"] [type="radio"]:checked + div,
+    .tabs [class*=" tab"] [type="radio"]:checked + div {
+      opacity: 1; }
+    .tabs [class^="tab"] [type="radio"] + div,
+    .tabs [class*=" tab"] [type="radio"] + div {
+      display: block;
+      opacity: 0;
+      padding: 2rem 0;
+      width: 90%;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+  .tabs .tab-2 {
+    width: 50%; }
+    .tabs .tab-2 [type="radio"] + div {
+      width: 200%;
+      margin-left: 200%; }
+    .tabs .tab-2 [type="radio"]:checked + div {
+      margin-left: 0; }
+    .tabs .tab-2:last-child [type="radio"] + div {
+      margin-left: 100%; }
+    .tabs .tab-2:last-child [type="radio"]:checked + div {
+      margin-left: -100%; }
+
